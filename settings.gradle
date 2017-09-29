@@ -1,0 +1,3 @@
+rootProject.name = 'groovy_in_action'
+include 'java_groovy_integration'
+
