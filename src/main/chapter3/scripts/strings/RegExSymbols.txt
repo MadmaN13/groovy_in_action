@@ -1,0 +1,23 @@
+. Any character
+^ Start of line (or start of document, when in single-line mode)
+$ End of line (or end of document, when in single-line mode)
+\d Digit character
+\D Any character except digits
+\s Whitespace character
+\S Any character except whitespace
+\w Word character
+\W Any character except word characters
+\b Word boundary
+() Grouping
+( x | y ) x or y, as in (Groovy|Java|Ruby)
+\1 Backmatch to group one; for example, find doubled characters with (.)\1
+x * Zero or more occurrences of x
+x + One or more occurrences of x
+x ? Zero or one occurrence of x
+x { m , n } At least m and at most n occurrences of x
+x { m } Exactly m occurrences of x
+[a-f] Character class containing the characters a, b, c, d, e, f
+[^a] Character class containing any character except a
+(?is:x) Switches
+=~ find operator
+==~ match operator
