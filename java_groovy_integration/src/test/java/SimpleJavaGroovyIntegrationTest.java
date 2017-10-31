@@ -6,5 +6,9 @@
 public class SimpleJavaGroovyIntegrationTest {
 
     public static void main(String [] args) {
+
+
     }
+
+
 }
