@@ -1,4 +1,4 @@
-package chapter2.scripts
+package chapter2_intro.scripts
 
 import groovy.transform.Immutable
 

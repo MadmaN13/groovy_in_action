@@ -66,3 +66,11 @@ assert insuranceRate == 0.06
 def ages = [20, 36, 42, 56]
 def midage = 21..50
 assert ages.grep(midage) == [36, 42]
+
+def mon = new Weekday('Mon')
+def fri = new Weekday('Fri')
+def worklog = ''
+for (day in mon..fri) {
+    worklog += day.toString() + ' '
+}
+assert worklog == 'Mon Tue Wed Thu Fri '

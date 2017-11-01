@@ -1,6 +1,6 @@
-package chapter2.scripts
+package chapter2_intro.scripts
 
-import chapter2.Book
+import chapter2_intro.Book
 
 /**
  * Created by NM.Rabotaev on 12.10.2017.

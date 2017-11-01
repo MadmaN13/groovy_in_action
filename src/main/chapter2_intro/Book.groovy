@@ -1,4 +1,4 @@
-package chapter2
+package chapter2_intro
 
 /**
  * Created by NM.Rabotaev on 12.10.2017.

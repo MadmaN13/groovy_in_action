@@ -1,7 +1,8 @@
 /**
  * Created by NM.Rabotaev on 19.10.2017.
  */
-import chapter3.*
+
+import chapter2_intro.Money
 
 Money rouble = new Money(1, 'RUR')
 assert rouble
