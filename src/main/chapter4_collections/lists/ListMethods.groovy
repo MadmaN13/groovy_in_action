@@ -63,3 +63,12 @@ assert [1,2] == x.unique()
 x = [1,null,1]
 assert [1,1] == x.findAll{it!=null}
 assert [1,1] == x.grep{it}
+
+def result = []
+def lines = ["ololololololhlg", "cjvkfvhkjhvbkjgbh", "12233rfrfrefj", "yayayya"]
+lines.each {
+    def grep = it.grep("lol")
+    println grep
+    if (grep) result.add(grep)
+}
+result.each {println it}
