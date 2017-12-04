@@ -1,5 +1,0 @@
-package samples
-
-def testDir = ""
-
-

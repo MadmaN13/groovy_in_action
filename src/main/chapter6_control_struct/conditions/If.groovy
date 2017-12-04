@@ -1,4 +1,5 @@
 package chapter6_control_struct.conditions
+
 if (true) assert true
 else assert false
 if (1) {

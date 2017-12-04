@@ -35,8 +35,8 @@ class FileUtils {
     }
 
     public static void main(String[] args) {
-        def testDir = "C:\\Users\\NM.Rabotaev\\Desktop\\skb\\фл\\поддержка\\iss2707_no_session\\archive";
-        def toFind = "176.9.136.47";
+        def testDir = "C:\\Users\\NM.Rabotaev\\Desktop\\skb\\фл\\поддержка\\iss2724_white_ip_list_problem\\prod\\ic_logs";
+        def toFind = "d34bf3d5-88db-4cf7-84ed-126d0ad68a3d";
         def results = FileUtils.findLineInDir(new File(testDir), toFind);
         results.each {
             if (it.getValue()) {
