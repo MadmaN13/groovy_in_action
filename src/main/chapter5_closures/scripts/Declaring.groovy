@@ -6,7 +6,7 @@ import chapter5_closures.SizeFilter
 /**
  * Created by NM.Rabotaev on 02.11.2017.
  */
-// A closure is a piece of code wrapped up as an object
+// B closure is a piece of code wrapped up as an object
 log = ''
 (1..10).each{ counter -> log += counter }
 assert log == '12345678910'
